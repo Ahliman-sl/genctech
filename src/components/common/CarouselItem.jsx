@@ -1,4 +1,9 @@
 /* eslint-disable react/prop-types */
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
+/* diğer importlar buraya gelecek */
+
 export default function CarouselItem({
   title,
   text,
@@ -8,14 +13,19 @@ export default function CarouselItem({
 }) {
   return (
     <div className="carousel-item relative group">
-      <img src={imgSource} className="rounded-box cardImage" />
+      <LazyLoadImage
+        src={imgSource}
+        className="rounded-box cardImage"
+        alt={title} // Görüntü için bir alternatif metin ekleyin
+        effect="blur" // Yükleme efekti
+      />
       <div className="absolute inset-0 bg-black bg-opacity-50 rounded-2xl flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="w-full">
           <p className="text-2xl text-slate-50 font-thin p-2 text-center">
             {text}
           </p>
         </div>
-        <a href={link} target="_Blank" className="btn text-black font-semibold">
+        <a href={link} target="_blank" className="btn text-black font-semibold">
           {buttonTitle}
         </a>
       </div>

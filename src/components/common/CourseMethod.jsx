@@ -1,3 +1,6 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import office1 from "../../assets/office1.webp";
 import office2 from "../../assets/office2.webp";
 import office3 from "../../assets/office3.webp";
@@ -5,12 +8,12 @@ import office4 from "../../assets/office4.webp";
 
 function CourseMethod() {
   return (
-    <section className="w-full h-max flex flex-col mt-10 lg:mt-5  ">
+    <section className="w-full h-max flex flex-col mt-10 lg:mt-5">
       <div className="w-full h-max flex flex-col gap-5">
         <h3 className="text-center text-3xl lg:text-6xl font-bold text-sky-950">
           Genc Tech Life-a qoşul
         </h3>
-        <p className=" p-5 font-semibold bg-sky-950 text-slate-50  rounded-md ">
+        <p className="p-5 font-semibold bg-sky-950 text-slate-50 rounded-md">
           Kursumuzda sosial həyat çox canlı və rəngarəngdir. Siz burada yeni
           dostlar qazanacaq, komanda işini öyrənəcək və müxtəlif tədbirlərdə
           iştirak edərək peşəkar şəbəkənizi genişləndirəcəksiniz. Həyatınızı
@@ -20,27 +23,31 @@ function CourseMethod() {
       <div className="container px-6 m-auto mt-10 shadow-xl">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
           <div className="col-span-4 lg:col-span-3">
-            <img
+            <LazyLoadImage
               src={office1}
               className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
+              effect="blur"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
-            <img
+            <LazyLoadImage
               src={office2}
-              className="lifeImage rounded-xl w-full  h-[20rem]  lg:h-[30rem]"
+              className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
+              effect="blur"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
-            <img
+            <LazyLoadImage
               src={office3}
-              className="lifeImage rounded-xl w-full  h-[20rem] lg:h-[30rem]"
+              className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
+              effect="blur"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
-            <img
+            <LazyLoadImage
               src={office4}
-              className="lifeImage rounded-xl w-full h-[20rem]  lg:h-[30rem]"
+              className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
+              effect="blur"
             />
           </div>
         </div>

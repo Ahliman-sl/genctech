@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For Navbar darkmode icon */
+@media (max-width: 350px) {
+  .hide-below-350 {
+    display: none;
+  }
+}
+
+.cardImage {
+  width: 20rem;
+  height: 20rem;
+  background-size: cover;
+}
+
+.lifeImage {
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+/* Tailwind CSS */
+
+.studentImage {
+  background-image: url("./assets/onlinePhoto.png"); /* Kendi resim yolunuzu ekleyin */
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonial-container {
+  margin-top: -3rem; /* Üzerine çıkma efekti için negatif marj */
+  z-index: 10; /* Üzerinde görünmesi için */
+}
+
+@media (min-width: 1024px) {
+  .testimonial-container {
+    margin-top: 0; /* Büyük ekranlarda normal düzen */
+  }
+}

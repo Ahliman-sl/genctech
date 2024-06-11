@@ -5,12 +5,12 @@ import office4 from "../../assets/office4.webp";
 
 function CourseMethod() {
   return (
-    <section className="w-full h-max flex flex-col mt-5  ">
+    <section className="w-full h-max flex flex-col mt-10 lg:mt-5  ">
       <div className="w-full h-max flex flex-col gap-5">
-        <h3 className="text-center text-6xl font-bold text-sky-950">
+        <h3 className="text-center text-3xl lg:text-6xl font-bold text-sky-950">
           Genc Tech Life-a qoşul
         </h3>
-        <p className="py-5 font-semibold bg-sky-950 text-slate-50  rounded-md p-3">
+        <p className=" p-5 font-semibold bg-sky-950 text-slate-50  rounded-md ">
           Kursumuzda sosial həyat çox canlı və rəngarəngdir. Siz burada yeni
           dostlar qazanacaq, komanda işini öyrənəcək və müxtəlif tədbirlərdə
           iştirak edərək peşəkar şəbəkənizi genişləndirəcəksiniz. Həyatınızı

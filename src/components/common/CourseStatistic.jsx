@@ -12,10 +12,14 @@ function CourseStatistic() {
             <Accordion />
           </div>
           <div className="col-span-4 lg:col-span-5 flex flex-col items-center justify-center">
-            <h1 className="text-5xl font-bold text-slate-50 text-center tracking-[1.75rem]">
+            <h1 className="text-2xl  lg:text-5xl font-bold text-slate-50 text-center tracking-[1.75rem]">
               Genc Tech
             </h1>
-            <Lottie animationData={animationData} />
+
+            <Lottie
+              animationData={animationData}
+              className="w-[14rem] md:w-auto"
+            />
           </div>
         </div>
       </div>

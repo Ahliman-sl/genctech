@@ -1,7 +1,7 @@
-import office1 from "../../assets/office1.jpg";
-import office2 from "../../assets/office2.jpg";
-import office3 from "../../assets/office3.jpg";
-import office4 from "../../assets/office4.jpg";
+import office1 from "../../assets/office1.webp";
+import office2 from "../../assets/office2.webp";
+import office3 from "../../assets/office3.webp";
+import office4 from "../../assets/office4.webp";
 
 function CourseMethod() {
   return (

@@ -1,13 +1,13 @@
-import backimage1 from "../../assets/backimage1.jpg";
-import backimage2 from "../../assets/backimage2.jpg";
-import backimage3 from "../../assets/backimage3.jpg";
-import backimage4 from "../../assets/backimage4.jpg";
-import backimage5 from "../../assets/backimage5.jpg";
-import backimage6 from "../../assets/backimage6.jpg";
-import backimage7 from "../../assets/backimage7.jpg";
-import backimage8 from "../../assets/backimage8.jpg";
-import backimage9 from "../../assets/backimage9.jpg";
-import backimage10 from "../../assets/backimage10.jpg";
+import backimage1 from "../../assets/backimage1.webp";
+import backimage2 from "../../assets/backimage2.webp";
+import backimage3 from "../../assets/backimage3.webp";
+import backimage4 from "../../assets/backimage4.webp";
+import backimage5 from "../../assets/backimage5.webp";
+import backimage6 from "../../assets/backimage6.webp";
+import backimage7 from "../../assets/backimage7.webp";
+import backimage8 from "../../assets/backimage8.webp";
+import backimage9 from "../../assets/backimage9.webp";
+import backimage10 from "../../assets/backimage10.webp";
 
 const carouselItems = [
   {

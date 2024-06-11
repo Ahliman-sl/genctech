@@ -24,7 +24,7 @@
 /* Tailwind CSS */
 
 .studentImage {
-  background-image: url("./assets/onlinePhoto.png"); /* Kendi resim yolunuzu ekleyin */
+  background-image: url("./assets/onlinePhoto.webp"); /* Kendi resim yolunuzu ekleyin */
   object-fit: cover;
   background-repeat: no-repeat;
 }

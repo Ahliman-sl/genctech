@@ -1,7 +1,7 @@
 import { GrWorkshop } from "react-icons/gr";
 import { GrCertificate } from "react-icons/gr";
 import { MdWorkHistory } from "react-icons/md";
-import courseImage from "../../assets/courseImage.jpg";
+import courseImage from "../../assets/courseImage.webp";
 function CourseStats() {
   return (
     <section className="mt-5 mb-10">

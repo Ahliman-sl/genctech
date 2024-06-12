@@ -1,40 +1,19 @@
-import { Suspense, lazy } from "react";
-import Spinner from "../components/special/Spinner.jsx"; // Örnek spinner bileşeni
-
-const HeaderTitle = lazy(() => import("../components/common/HeaderTitle"));
-const Carousel = lazy(() => import("../components/common/Carousel"));
-const CourseStats = lazy(() => import("../components/common/CourseStats"));
-const CourseStatistic = lazy(() =>
-  import("../components/common/CourseStatistic")
-);
-const CourseMethod = lazy(() => import("../components/common/CourseMethod"));
-const StudentReviews = lazy(() =>
-  import("../components/common/StudentReviews")
-);
-
+import HeaderTitle from "../components/common/HeaderTitle.jsx";
+import Carousel from "../components/common/Carousel.jsx";
+import CourseStats from "../components/common/CourseStats.jsx";
+import CourseStatistic from "../components/common/CourseStatistic.jsx";
+import CourseMethod from "../components/common/CourseMethod.jsx";
+import StudentReviews from "../components/common/StudentReviews.jsx";
 function Home() {
   return (
     <>
-      <Suspense fallback={<Spinner />}>
-        {" "}
-        {/* Spinner bileşeni */}
-        <HeaderTitle />
-      </Suspense>
-      <Suspense fallback={<Spinner />}>
-        <Carousel />
-      </Suspense>
-      <Suspense fallback={<Spinner />}>
-        <CourseStats />
-      </Suspense>
-      <Suspense fallback={<Spinner />}>
-        <CourseStatistic />
-      </Suspense>
-      <Suspense fallback={<Spinner />}>
-        <CourseMethod />
-      </Suspense>
-      <Suspense fallback={<Spinner />}>
-        <StudentReviews />
-      </Suspense>
+      <HeaderTitle />
+
+      <Carousel />
+      <CourseStats />
+      <CourseStatistic />
+      <CourseMethod />
+      <StudentReviews />
     </>
   );
 }

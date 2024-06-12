@@ -1,6 +1,3 @@
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
-
 import office1 from "../../assets/office1.webp";
 import office2 from "../../assets/office2.webp";
 import office3 from "../../assets/office3.webp";
@@ -23,31 +20,27 @@ function CourseMethod() {
       <div className="container px-6 m-auto mt-10 shadow-xl">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
           <div className="col-span-4 lg:col-span-3">
-            <LazyLoadImage
+            <img
               src={office1}
               className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
-              effect="blur"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
-            <LazyLoadImage
+            <img
               src={office2}
               className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
-              effect="blur"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
-            <LazyLoadImage
+            <img
               src={office3}
               className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
-              effect="blur"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
-            <LazyLoadImage
+            <img
               src={office4}
               className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
-              effect="blur"
             />
           </div>
         </div>

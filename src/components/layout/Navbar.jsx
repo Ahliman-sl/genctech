@@ -36,7 +36,7 @@ export default function Navbar({ darkmode, setIsDarkMode }) {
         </ul>
       </div>
       <div className="navbar-end flex items-center gap-4">
-        <label className="swap swap-rotate hide-below-350">
+        <label className="swap swap-rotate max-xs:hidden">
           {/* this hidden checkbox controls the state */}
           <input
             type="checkbox"

@@ -3,7 +3,11 @@ import daisyui from "daisyui";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xs: "350px", // smaller than 350px screens
+      },
+    },
   },
   plugins: [daisyui],
   daisyui: {

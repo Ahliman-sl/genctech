@@ -2,19 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* For Navbar darkmode icon */
-@media (max-width: 350px) {
-  .hide-below-350 {
-    display: none;
-  }
-}
-
-.cardImage {
-  width: 20rem;
-  height: 20rem;
-  background-size: cover;
-}
-
 .lifeImage {
   background-size: cover;
   background-position: center;

@@ -1,9 +1,10 @@
-import { Suspense, lazy } from "react";
+import { Suspense } from "react";
 import Statics from "./Statics";
 import Accordion from "./Accordion";
+import statisticProfileImage from "../../assets/statisticProfileImage.webp";
 
-const Lottie = lazy(() => import("lottie-react"));
-import animationData from "../../assets/Animation - 1718042257297.json";
+// const Lottie = lazy(() => import("lottie-react"));
+// import animationData from "../../assets/Animation - 1718042257297.json";
 
 function CourseStatistic() {
   return (
@@ -14,14 +15,15 @@ function CourseStatistic() {
             <Statics />
             <Accordion />
           </div>
-          <div className="col-span-4 lg:col-span-5 flex flex-col items-center justify-center">
+          <div className="col-span-4 lg:col-span-5 gap-5 flex flex-col items-center justify-center">
             <h1 className="text-2xl lg:text-5xl font-bold text-slate-50 text-center tracking-[1.75rem]">
               Genc Tech
             </h1>
             <Suspense fallback={<div>Loading animation...</div>}>
-              <Lottie
-                animationData={animationData}
-                className="w-[14rem] md:w-auto"
+              <img
+                src={statisticProfileImage}
+                className="w-[20rem] h-[20rem] object-cover rounded-xl"
+                alt="profilImage"
               />
             </Suspense>
           </div>

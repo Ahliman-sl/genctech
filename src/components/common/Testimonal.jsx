@@ -2,7 +2,7 @@ export default function Testimonal() {
   return (
     <>
       {/*      <!-- Component: Elevated base sized testimonial with rating stars --> */}
-      <div className="overflow-hidden rounded bg-white text-slate-500 shadow-2xl shadow-slate-200">
+      <div className="overflow-hidden border rounded-2xl bg-white text-slate-500 shadow-2xl shadow-slate-200">
         <div className="relative p-6">
           <figure className="relative z-10">
             <blockquote className="p-6 text-lg leading-relaxed">

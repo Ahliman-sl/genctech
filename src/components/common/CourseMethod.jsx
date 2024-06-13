@@ -22,25 +22,25 @@ function CourseMethod() {
           <div className="col-span-4 lg:col-span-3">
             <img
               src={office1}
-              className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
+              className="lifeImage rounded-xl w-[20rem] h-[20rem]"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
             <img
               src={office2}
-              className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
+              className="lifeImage rounded-xl  w-[20rem] h-[20rem]"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
             <img
               src={office3}
-              className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
+              className="lifeImage rounded-xl  w-[20rem] h-[20rem]"
             />
           </div>
           <div className="col-span-4 lg:col-span-3">
             <img
               src={office4}
-              className="lifeImage rounded-xl w-full h-[20rem] lg:h-[30rem]"
+              className="lifeImage rounded-xl  w-[20rem] h-[20rem]"
             />
           </div>
         </div>

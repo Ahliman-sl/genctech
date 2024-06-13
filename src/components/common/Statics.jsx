@@ -1,3 +1,4 @@
+import statisticProfileImage from "../../assets/statisticProfileImage.webp";
 export default function Statics() {
   return (
     <div className="stats shadow stats-vertical 2xl:stats-horizontal">
@@ -47,7 +48,7 @@ export default function Statics() {
         <div className="stat-figure text-secondary">
           <div className="avatar online">
             <div className="w-16 rounded-full">
-              <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              <img src={statisticProfileImage} className="w-full h-full" />
             </div>
           </div>
         </div>

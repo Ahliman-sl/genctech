@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function CarouselItem({ title, text, buttonTitle, link }) {
   return (
     <div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform transition-transform duration-300 hover:scale-105">

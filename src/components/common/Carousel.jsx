@@ -20,10 +20,11 @@ export default function Carousel() {
   };
 
   return (
-    <section className="w-full px-6 py-10 flex flex-col items-center gap-6">
+    <section className="w-full md:h-[45rem] lg:h-[30rem]  bg-sky-950 rounded-md px-6 py-10 flex flex-col items-center mt-10 gap-6">
       <div>
-        <p className="text-4xl font-semibold text-sky-900 text-center">
-          Hansı sahə üzrə <span className="font-bold">ƏJDAHA</span> olmaq
+        <p className="text-4xl font-semibold text-slate-50 text-center">
+          Hansı sahə üzrə{" "}
+          <span className="font-bold text-green-500 ">ƏJDAHA</span> olmaq
           istəyirsən?
         </p>
       </div>
